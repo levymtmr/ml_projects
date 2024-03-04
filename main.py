@@ -7,7 +7,7 @@ from zlib import crc32
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer
 
-HOUSING_PATH = "./datasets/"
+HOUSING_PATH = "./datasets/" 
 
 def load_housing_data(housing_data=HOUSING_PATH):
     csv_path = os.path.join(housing_data, 'housing.csv')
